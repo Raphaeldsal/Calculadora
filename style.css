@@ -1,0 +1,88 @@
+.calculadora {
+  width: 400px;
+  height: 650px;
+  margin: 0 auto;
+  background-color: #333;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #000;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.visor {
+  width: 80%;
+  height: 150px;
+  margin: 50px auto;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #000;
+  font-size: 40px;
+  color: #333;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+button {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border: none;
+  border-radius: 35px;
+  background-color: #fff;
+  font-size: 20px;
+  color: #333;
+  box-shadow: 0 0 10px #000;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.somar {
+  background-color: #970606;
+  color: #fff;
+}
+
+.subtrair {
+  background-color: #970606;
+  color: #fff;
+}
+
+.multiplicar {
+  background-color: #970606;
+  color: #fff;
+}
+
+.dividir {
+  background-color: #970606;
+  color: #fff;
+}
+
+.igual {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+.limpar {
+  background-color: #f00;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .calculadora {
+    width: 300px;
+    height: 600px;
+  }
+  .visor {
+    font-size: 30px;
+  }
+  button {
+    width: 50px;
+    height: 50px;
+  }
+}
